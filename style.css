@@ -1,0 +1,46 @@
+button {
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.contenedor {
+background-color: teal;
+height: 900px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+ align-content: center; 
+border-radius: 5px;
+color: white;
+
+}
+
+.tarjeta {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* si usamos el valor inline para la propiedad display, no debemos dar height ni width porque los elementos en linea como los span imponen su propio atributo, se ignoraran los valores que demos de width y height. */
+/* VW HEIGHT, VW WIDTH indica que ocupe cierto porcentaje de la pantalla del usuario. E.g: 50vw */
+/* no usamos porcentaje idealmente porque si la web es muy larga y usamos el 100% ocupara todo, pero si usamos VW ocupara cierta parte de la pantalla, no de la pagina */
+/* flexbox por defecto ubica los elementos arriba y a la izquierda, para modificar eso usamos justify-content */
+/* align-items es para alinear elementos en sentido vertical y admite centro, abajo o arriba, justify-content es para el sentido horizontal */
+/* align-content sirve solamente cuando los elementos estan en wrap y permite alinear segun el conjunto de elementos */
+/* flex-direction por defecto aparece en fila. Permite alinear elementos en vertical. Cuando los elementos estan en row afectan el eje horizontal, cuando estan en column afectan el eje vertical. De acuerdo a esta propiedad, justify-content acomodara los elementos en un sentido u otro.  */
